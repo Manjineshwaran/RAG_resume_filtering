@@ -61,7 +61,7 @@ class SequentialAgent:
         return context
 
 # --- Agent Definitions --- #
-genai.configure(api_key="AIzaSyB0m-jA_y459bjEG18kdhNtjBHmxFxqViY") 
+genai.configure(api_key="API KEY") 
 GEMINI_MODEL = genai.GenerativeModel('gemini-2.0-flash')
 
 query_parser_agent = LlmAgent(
